@@ -1,0 +1,39 @@
+Grocery Booking Application
+
+Roles:
+    Admin
+    User
+
+Admin Resposibility:
+    Add item
+    Delelet Item
+    Update Item
+    Get all Item
+    Get item by Id
+
+User Responsibilty:
+    View Available Item with Quanity
+    Book multiple Item in one order
+
+Additionl API for Supporting above Feature:
+    Add User
+
+Pre-Req:
+    Java 8+
+    Maven
+    My SQL
+
+Run MYSQL:
+    Download and install Mysql
+    Create connetions with below details
+        URI: localhost:3306/qp-assessment
+    Create Schema qp-assessment
+
+Run Application:
+    Clone this repo
+    Update application.yaml as per you connectionsto Database
+    run as springboot app 
+
+Test: 
+    Download and Import below Collection file in POSTMAN
+    LINK TO POSTMAN COLLECTION: https://drive.google.com/file/d/1ACnabVEusrOB8QyBV4XtuN1D2O9jxmc-/view?usp=sharing
